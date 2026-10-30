@@ -1,0 +1,632 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rashmi | Professional Portfolio</title>
+    <meta name="description" content="Rashmi's professional portfolio showcasing education, computer skills, web designing and professional development.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Background decoration -->
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <!-- NAVBAR -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">
+                R<span>.</span>
+            </a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link contact-nav">Contact Me <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero section" id="home">
+            <div class="container hero-grid">
+
+                <div class="hero-content reveal">
+                    <div class="availability">
+                        <span class="status-dot"></span>
+                        Welcome to my portfolio
+                    </div>
+
+                    <p class="eyebrow">HELLO, I'M</p>
+
+                    <h1>Rashmi<span class="gradient-text">.</span></h1>
+
+                    <h2 class="hero-role">
+                        I'm a <span id="typing-text">Web Designer</span><span class="cursor">|</span>
+                    </h2>
+
+                    <p class="hero-description">
+                        I am from Ambala City, Haryana. I am pursuing CCA
+                        along with Android and Web Designing courses.
+                        I enjoy learning new technologies and creating
+                        clean, creative and user-friendly websites.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            Explore My Work <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <a href="#contact" class="btn btn-outline">
+                            Let's Connect
+                        </a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="mailto:rbidwal93@gmail.com" aria-label="Email Rashmi">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual reveal">
+                    <div class="photo-glow"></div>
+
+                    <div class="photo-frame">
+                        <img
+                            src="rashmi.jpg"
+                            alt="Portrait of Rashmi"
+                            class="profile-image"
+                            onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+                        >
+
+                        <div class="photo-placeholder">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Add Your Photo</span>
+                            <small>Save your image a</small>
+                        </div>
+                    </div>
+
+                    <div class="floating-card card-top">
+                        <span class="float-icon purple">
+                            <i class="fa-solid fa-code"></i>
+                        </span>
+                        <div>
+                            <strong>Web Designing</strong>
+                            <small>HTML · CSS · JavaScript</small>
+                        </div>
+                    </div>
+
+                    <div class="floating-card card-bottom">
+                        <span class="float-icon blue">
+                            <i class="fa-solid fa-laptop"></i>
+                        </span>
+                        <div>
+                            <strong>Computer Skills</strong>
+                            <small>MS Office & More</small>
+                        </div>
+                    </div>
+
+                    <div class="orbit orbit-one"></div>
+                    <div class="orbit orbit-two"></div>
+                </div>
+
+            </div>
+
+            <a href="#about" class="scroll-down">
+                <span>Scroll to explore</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </a>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">GET TO KNOW ME</p>
+                    <h2>About <span class="gradient-text">Me</span></h2>
+                    <p>A little introduction about my journey and goals.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card glass-card reveal">
+                        <div class="about-icon">
+                            <i class="fa-solid fa-user-graduate"></i>
+                        </div>
+
+                        <h3>My Introduction</h3>
+
+                        <p>
+                            Hello! I am Rashmi from Ambala City, Haryana.
+                            I have completed my 10th and 12th in the
+                            Science stream. Currently, I am pursuing
+                            CCA and learning Android and Web Designing.
+                        </p>
+
+                        <p>
+                            I have knowledge of MS Office, MS Word,
+                            PowerPoint, MS Access, HTML, CSS and
+                            JavaScript. I am also developing my English
+                            typing and spoken English skills.
+                        </p>
+
+                        <p>
+                            My goal is to improve my technical knowledge,
+                            build useful digital projects and grow
+                            professionally in the computer and IT field.
+                        </p>
+                    </div>
+
+                    <div class="about-details reveal">
+                        <div class="detail-card">
+                            <span class="detail-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </span>
+                            <div>
+                                <small>Location</small>
+                                <strong>Ambala City, Haryana</strong>
+                            </div>
+                        </div>
+
+                        <div class="detail-card">
+                            <span class="detail-icon">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </span>
+                            <div>
+                                <small>Education</small>
+                                <strong>12th Science</strong>
+                            </div>
+                        </div>
+
+                        <div class="detail-card">
+                            <span class="detail-icon">
+                                <i class="fa-solid fa-book-open"></i>
+                            </span>
+                            <div>
+                                <small>Currently Learning</small>
+                                <strong>CCA, Android & Web Designing</strong>
+                            </div>
+                        </div>
+
+                        <div class="detail-card">
+                            <span class="detail-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </span>
+                            <div>
+                                <small>Email Address</small>
+                                <a href="mailto:rbidwal93@gmail.com">
+                                    rbidwal93@gmail.com
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="detail-card">
+                            <span class="detail-icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </span>
+                            <div>
+                                <small>Phone Number</small>
+                                <a href="tel:+918295658194">
+                                    +91 8295658194
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION SECTION -->
+        <section class="section section-alt" id="education">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">MY ACADEMIC BACKGROUND</p>
+                    <h2>Education & <span class="gradient-text">Courses</span></h2>
+                    <p>My educational journey and professional learning.</p>
+                </div>
+
+                <div class="timeline">
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <div class="timeline-card glass-card">
+                            <span class="timeline-date">2016</span>
+                            <h3>Senior Secondary — 12th Science</h3>
+                            <p>Science Stream</p>
+                            <div class="education-result">
+                                <i class="fa-solid fa-award"></i>
+                                62% Marks
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker">
+                            <i class="fa-solid fa-book"></i>
+                        </div>
+                        <div class="timeline-card glass-card">
+                            <span class="timeline-date">2009</span>
+                            <h3>Secondary Education — 10th</h3>
+                            <p>Secondary School Education</p>
+                            <div class="education-result">
+                                <i class="fa-solid fa-award"></i>
+                                62% Marks
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+                        <div class="timeline-card glass-card">
+                            <span class="timeline-date">Currently Pursuing</span>
+                            <h3>CCA Course</h3>
+                            <p>Computer-related training and practical learning.</p>
+                            <div class="education-result">
+                                <i class="fa-solid fa-computer"></i>
+                                Computer Applications
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker">
+                            <i class="fa-brands fa-android"></i>
+                        </div>
+                        <div class="timeline-card glass-card">
+                            <span class="timeline-date">Currently Learning</span>
+                            <h3>Android & Web Designing</h3>
+                            <p>
+                                Learning website structure, styling,
+                                JavaScript and Android-related concepts.
+                            </p>
+                            <div class="education-result">
+                                <i class="fa-solid fa-code"></i>
+                                Technical Skills Development
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section class="section" id="skills">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">WHAT I CAN DO</p>
+                    <h2>My <span class="gradient-text">Skills</span></h2>
+                    <p>Computer knowledge, web technologies and communication.</p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card glass-card reveal">
+                        <div class="skill-icon purple-bg">
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+                        <h3>HTML5</h3>
+                        <p>Website structure and forms</p>
+                        <div class="skill-track"><span style="--level: 80%"></span></div>
+                    </div>
+
+                    <div class="skill-card glass-card reveal">
+                        <div class="skill-icon blue-bg">
+                            <i class="fa-brands fa-css3-alt"></i>
+                        </div>
+                        <h3>CSS3</h3>
+                        <p>Layouts, styling and responsive design</p>
+                        <div class="skill-track"><span style="--level: 75%"></span></div>
+                    </div>
+
+                    <div class="skill-card glass-card reveal">
+                        <div class="skill-icon yellow-bg">
+                            <i class="fa-brands fa-js"></i>
+                        </div>
+                        <h3>JavaScript</h3>
+                        <p>Interactive website features</p>
+                        <div class="skill-track"><span style="--level: 60%"></span></div>
+                    </div>
+
+                    <div class="skill-card glass-card reveal">
+                        <div class="skill-icon green-bg">
+                            <i class="fa-solid fa-file-word"></i>
+                        </div>
+                        <h3>MS Word</h3>
+                        <p>Documents and formatting</p>
+                        <div class="skill-track"><span style="--level: 85%"></span></div>
+                    </div>
+
+                    <div class="skill-card glass-card reveal">
+                        <div class="skill-icon orange-bg">
+                            <i class="fa-solid fa-file-powerpoint"></i>
+                        </div>
+                        <h3>PowerPoint</h3>
+                        <p>Presentations and slides</p>
+                        <div class="skill-track"><span style="--level: 80%"></span></div>
+                    </div>
+
+                    <div class="skill-card glass-card reveal">
+                        <div class="skill-icon teal-bg">
+                            <i class="fa-solid fa-table"></i>
+                        </div>
+                        <h3>MS Office</h3>
+                        <p>Office applications and productivity</p>
+                        <div class="skill-track"><span style="--level: 80%"></span></div>
+                    </div>
+
+                    <div class="skill-card glass-card reveal">
+                        <div class="skill-icon pink-bg">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                        <h3>MS Access</h3>
+                        <p>Database tables and records</p>
+                        <div class="skill-track"><span style="--level: 65%"></span></div>
+                    </div>
+
+                    <div class="skill-card glass-card reveal">
+                        <div class="skill-icon blue-bg">
+                            <i class="fa-solid fa-keyboard"></i>
+                        </div>
+                        <h3>English Typing</h3>
+                        <p>English typing practice</p>
+                        <div class="skill-track"><span style="--level: 75%"></span></div>
+                    </div>
+
+                    <div class="skill-card glass-card reveal">
+                        <div class="skill-icon purple-bg">
+                            <i class="fa-solid fa-comments"></i>
+                        </div>
+                        <h3>Spoken English</h3>
+                        <p>Communication and language practice</p>
+                        <div class="skill-track"><span style="--level: 65%"></span></div>
+                    </div>
+
+                </div>
+
+                <p class="skills-note">
+                    Note: Skill-bar percentages are editable design estimates,
+                    not tested proficiency scores. Adjust them to match your
+                    actual experience.
+                </p>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section class="section section-alt" id="projects">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">MY PRACTICAL LEARNING</p>
+                    <h2>Projects & <span class="gradient-text">Interests</span></h2>
+                    <p>Project ideas related to my current learning journey.</p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card glass-card reveal">
+                        <div class="project-art project-art-one">
+                            <i class="fa-solid fa-globe"></i>
+                            <span>01</span>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-category">WEB DESIGN</span>
+                            <h3>Personal Portfolio</h3>
+                            <p>
+                                A responsive personal website to present
+                                education, skills, achievements and contact details.
+                            </p>
+                            <div class="tag-list">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                            </div>
+                            <a href="#home" class="project-link">
+                                View Portfolio <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card glass-card reveal">
+                        <div class="project-art project-art-two">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                            <span>02</span>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-category">WEB DEVELOPMENT</span>
+                            <h3>Tourism Website</h3>
+                            <p>
+                                A travel website concept for showcasing
+                                destinations, tour packages and useful information.
+                            </p>
+                            <div class="tag-list">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                            </div>
+                            <span class="project-status">Suggested project idea</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card glass-card reveal">
+                        <div class="project-art project-art-three">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <span>03</span>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-category">APP DESIGN</span>
+                            <h3>Android App Concept</h3>
+                            <p>
+                                An idea for a simple mobile application
+                                with a clean layout and user-friendly interface.
+                            </p>
+                            <div class="tag-list">
+                                <span>Android</span><span>UI Design</span>
+                            </div>
+                            <span class="project-status">Suggested project idea</span>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">LET'S TALK</p>
+                    <h2>Get In <span class="gradient-text">Touch</span></h2>
+                    <p>Feel free to contact me for professional opportunities.</p>
+                </div>
+
+                <div class="contact-grid">
+
+                    <div class="contact-info glass-card reveal">
+                        <h3>Let's Connect!</h3>
+                        <p>
+                            I am interested in learning opportunities,
+                            computer-related work and entry-level roles
+                            where I can improve my skills.
+                        </p>
+
+                        <a class="contact-item" href="mailto:rbidwal93@gmail.com">
+                            <span class="contact-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </span>
+                            <span>
+                                <small>Email Me</small>
+                                <strong>rbidwal93@gmail.com</strong>
+                            </span>
+                        </a>
+
+                        <a class="contact-item" href="tel:+918295658194">
+                            <span class="contact-icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </span>
+                            <span>
+                                <small>Call Me</small>
+                                <strong>+91 8295658194</strong>
+                            </span>
+                        </a>
+
+                        <div class="contact-item">
+                            <span class="contact-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </span>
+                            <span>
+                                <small>My Location</small>
+                                <strong>Ambala City, Haryana, India</strong>
+                            </span>
+                        </div>
+
+                        <div class="contact-decoration">
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </div>
+                    </div>
+
+                    <form class="contact-form glass-card reveal" id="contact-form">
+                        <h3>Send a Message</h3>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name"
+                                       placeholder="Enter your name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email"
+                                       placeholder="Enter your email" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject"
+                                   placeholder="What is this about?" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5"
+                                      placeholder="Write your message here..."
+                                      required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            Send Email <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+
+                        <p class="form-note" id="form-note">
+                            Your email app will open with your message ready to send.
+                        </p>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- FINAL CTA -->
+        <section class="cta-section">
+            <div class="container cta-content reveal">
+                <p class="eyebrow">THANK YOU FOR VISITING</p>
+                <h2>Learning Today.<br><span class="gradient-text">Building Tomorrow.</span></h2>
+                <p>Every new skill is another step towards my professional goals.</p>
+                <a href="mailto:rbidwal93@gmail.com" class="btn btn-primary">
+                    Contact Rashmi <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <a href="#home" class="logo">R<span>.</span></a>
+
+            <p>Designed with care by <strong>Rashmi</strong> ©
+                <span id="year"></span>. All rights reserved.</p>
+
+            <a href="#home" class="back-to-top" aria-label="Back to top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
